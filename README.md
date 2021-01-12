@@ -29,7 +29,7 @@ __this is b__
 ___
 ---
 
-![this is picture](PICTURE\78654179_965566597146825_2035688741661573120_n.jpg)
+![this is picture](/PICTURE/78654179_965566597146825_2035688741661573120_n.jpg)
 [this is link](https://www.google.co.th)
 
 
