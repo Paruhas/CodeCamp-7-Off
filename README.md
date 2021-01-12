@@ -1,5 +1,5 @@
 # CodeCamp-7-Off
-# Git test codecamp 
+# Git test code-camp 
 ## title h2
 ### title h3
 #### title h4
@@ -16,7 +16,7 @@ __this is b__
 >>>test
 
 1. order number
-2. order nubmer
+2. order number
 4. order number
 65. order number
     1. sub order number
@@ -33,7 +33,7 @@ ___
 [this is link](https://www.google.co.th)
 
 
-***spacebar 2 time = br**
+***space-bar 2 time = br**
 
         table
     table
