@@ -1,38 +1,18 @@
 <html>
- <head>
-    <title>Test 3 core of front-end = html css js</title>
-    <style>
-        h2 {
-            color: blueviolet;
-            background-color: chocolate;
-            text-align: center;
-            font-size: 4rem;
-        }
-        body {
-            background-color: cornsilk;
-        }
-    </style>
- </head>
- <body> 
-    <input id="in1" type="text" placeholder="Text Color">
-    <input id="in2" type="text" placeholder="Background Color">
-    <button onclick="changeColor()">Change Color</button>
+    <head>
+        <title>Test 3 core of front-end = html css js</title>
+        <link rel="stylesheet" href="./index.html-css.css">
+    </head>
 
-    <h2 style="padding: 1rem;">Codecamp Thailand</h2>
+    <body> 
+        <input id="in1" type="text" placeholder="Text Color">
+        <input id="in2" type="text" placeholder="Background Color">
+        <button onclick="changeColor()">Change Color</button>
 
-    <script>
-        // alert('Hello')
-        function changeColor() {
-            // alert("Change Color Function.....")
-            let Tcolor = document.querySelector('#in1').value
-            let Bcolor = document.querySelector('#in2').value
-            // alert(Tcolor)
-            // alert(Bcolor)
-            document.querySelector('h2').style.color = Tcolor
-            document.querySelector('h2').style.backgroundColor = Bcolor
-        }
-    </script>
+        <h2>Codecamp Thailand</h2>
 
-</body> 
+        <script src="./index.htnl-script.js"></script>
+
+    </body> 
 
 </html>
