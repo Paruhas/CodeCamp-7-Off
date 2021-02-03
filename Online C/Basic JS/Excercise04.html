@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // let currentUser = null;
+        // let defaultUser = 'CANCEL'
+        // let userName = currentUser || defaultUser || 'Unknown'
+        // currentUser = String(prompt('Who are you?'))
+
+
+        let username = prompt( 'Who are you?' , 'Admin');
+          if (username == "Admin") {
+                let password =  prompt('PASSWORD?' , 'CC#5')
+                if (password == "CC#5") {
+                alert('WELCOME '+username)
+                } else if ( password == null || password == "") {
+                alert('CANCEL PASSWORD')
+                } else {
+                alert('WRONG PASSWORD')
+                }
+          } else  if ( username == null || username == "") {
+            alert('CANCEL')
+          } else {
+              alert('WRONG USERNAME')
+          }
+    </script>
+</body>
+</html>
